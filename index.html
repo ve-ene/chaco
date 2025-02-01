@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaco</title>
+
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"/>
+
+    <!--FAVICON-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" media="(min-width:768px) and (max-width:1023px)"/>
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width:1024px)"/>
+    <link rel="icon" href="Styles/img/icon.png" type="image/png">
+
+    <!--STYLE-->
+    <link rel="stylesheet" type="text/css" href="Styles/style.css"/>
+
+</head>
+
+<body>
+   <!--MENU-->
+
+    <div class="menu"> 
+        <img class="logo" src="Styles/img/logo.svg" alt="logo">
+        <div class="menu-hamb">            
+            <input type="checkbox">
+            <img class="menu-close" src="Styles/img/Burger-menu.svg" alt="menu-hamb">
+            <img class="menu-open" src="Styles/img/close.svg" alt="icon-close">
+        <nav>
+            <ul class="nav">
+                <li><a href="#hero" title="inicio">Inicio</a></li>
+                <li><a href="#productos" title="productos">Productos</a></li>
+                <li><a href="#caracteristicas" title="caracteristicas">Características</a></li>
+                <li><a href="#kits" title="precios">Kits</a></li>
+                <li><a href="#testimonios" title="testimonios">Testimonios</a></li>
+                <li><a href="#contacto" title="contacto">Contacto</a></li>
+            </ul>
+        </nav>          
+        </div>
+    </div>
+
+
+
+    <!--HERO-->
+    <div id="hero">
+        <div class="txt-hero">
+            <h1 class="title">Objetos cotidianos con diseño</h1>
+            <p class="desc">Porque siempre es mejor ser original</p>
+        </div>
+        <video class="media of-cover" autoplay muted loop src="Styles/video/video-estrellas.webm">
+        </video>
+    </div>
+
+    <!--MAIN-->
+    <main>
+        <section id="productos">
+            <h2>Nuestros productos</h2>
+            <div class="container">
+                <!--Producto 1-->
+                <article>
+                    <a href="#" title="Prod-1"><img class="producto of-cover" src="Styles/img/Cassete-qmb.webp" alt="img_prod"
+                            title="felpudo_cassette"></a>     
+                    <a href="#" title="Prod-2-zoom"><img class="producto-zoom of-cover" src="Styles/img/Cassete-ZOOM.webp" alt="img_prod"
+                        title="felpudo_cassette">
+                        <h3>Felpudo</h3>
+                        <span>19,99€</span></a>
+                </article>
+
+                <!--Producto 2-->
+                <article>
+                    <a href="#" title="Prod-2"><img class="producto" src="Styles/img/paraguas.webp" alt="img_prod"
+                            title="paraguas"></a>
+                    <a href="#" title="Prod-2-zoom"><img class="producto-zoom of-cover" src="Styles/img/paraguas-ZOOM.webp" alt="img_prod"
+                        title="paraguas">
+                        <h3>Paraguas</h3>
+                        <span>26,50€</span></a> 
+                </article>
+
+                <!--Producto 3-->
+                <article>
+                    <a href="#" title="Prod-3"><img class="producto" src="Styles/img/reloj.webp" alt="img_prod"
+                            title="reloj"></a>
+                    <a href="#" title="Prod-2-zoom"><img class="producto-zoom of-cover" src="Styles/img/reloj-ZOOM.webp" alt="img_prod"
+                        title="reloj">
+                        <h3>Reloj</h3>
+                        <span>76,50€</span></a>
+                </article>
+
+                <!--Producto 4-->
+                <article class="prod-4">
+                    <a href="#" title="Prod-4"><img class="producto" src="Styles/img/vaso.webp" alt="img_prod"
+                            title="producto"></a>
+                    <a href="#" title="Prod-2-zoom"><img class="producto-zoom of-cover" src="Styles/img/vaso-zoom.webp" alt="img_prod"
+                        title="vaso_termico">
+                        <h3>Vaso térmico</h3>
+                        <span>31,50€</span></a>
+                </article>
+
+            </div>
+            <div class="more">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </section>
+
+        <!--CARACTERISTICAS-->
+
+        <section id="caracteristicas">
+            <h2>Características principales</h2>
+            <div class="container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="txt-carac">
+                                <h3>Eco friendly</h3>
+                                <p>Somos sostenibles...</p>
+                            </div>
+                            <img class="producto of-cover" src="Styles/img/planet.webp" alt="img_prod" title="producto">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="card-content">
+                                <h3>Eco friendly</h3>
+                                <p>Creemos que comprometiéndonos con una producción más sostenible podemos mejorar la
+                                    calidad, la durabilidad y ser más respetuosos con el medio ambiente. Es nuestra
+                                    forma de contribuir a un enfoque más ecológico, pensando en vosotros, nosotros y el
+                                    mundo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="txt-carac">
+                                <h3>Enfocados hacia el futuro</h3>
+                                <p>Nos hay planeta B...</p>
+                            </div>
+                            <img class="producto of-cover" src="Styles/img/sostenible.avif" alt="img_prod"
+                                title="producto">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="card-content">
+                                <h3>Enfocados hacia el futuro</h3>
+                                <p>Nuestros envases se fabrican con papel y cartón derivados de las fibras de los
+                                    árboles de los bosques. Nos aseguramos de que los bosques de donde proceden estos
+                                    materiales se gestionen de forma responsable y según las normas reconocidas
+                                    internacionalmente. Esta certificación nos garantiza a nosotros y a nuestros
+                                    clientes que utilizamos materiales sostenibles y ecológicos para nuestros envases,
+                                    sin dañar el medio ambiente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="txt-carac">
+                                <h3>Comprometidos con el medio ambiente</h3>
+                                <p>Actuamos hoy por mañana...</p>
+                            </div>
+                            <img class="producto of-cover" src="Styles/img/ecofrendly.avif" alt="img_prod"
+                                title="producto">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="card-content">
+                                <h3>Comprometidos con el medio ambiente</h3>
+                                <p>La colección Bio-based es nuestra iniciativa para ofrecer un producto más sostenible
+                                    dentro de nuestra colección. Esta línea de productos se fabrica con un 45% de
+                                    recursos naturales, lo que reduce significativamente nuestra dependencia de
+                                    materiales fósiles y disminuye las emisiones de carbono durante el proceso de
+                                    fabricación.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="ver-mas" href="#" target="_blank">Ver más</a>
+        </section>
+
+        <div class="video">
+            <video class="media of-cover" autoplay muted loop src="Styles/video/glitter.mp4">
+            </video>
+        </div>
+
+        <!--KITS-->
+        <section id="kits">
+            <h2>Kits armados</h2>
+            <div class="container">
+                <div class="kit">
+                    <h3>Kit 1 - Rainbow</h3>
+                    <ul>
+                        <li>Paraguas</li>
+                        <li>Botella térmica</li>
+                        <li>Cepillo eco friendly</li>
+                        <li>Vaso</li>
+                        <li class="price">$69.99€</li>
+                    </ul>
+                    <div class="button">
+                        <a href="#"><span>Seleccionar</span></a>
+                    </div>
+                </div>
+
+                <div class="kit">
+                    <h3>Kit 2 - Sunny</h3>
+                    <ul>
+                        <li>Paraguas</li>
+                        <li>Botella térmica</li>
+                        <li>Cepillo eco friendly</li>
+                        <li>Abanico</li>
+                        <li class="price">$89.49€</li>
+                    </ul>
+                    <div class="button">
+                        <a href="#"><span>Seleccionar</span></a>
+                    </div>
+                </div>
+
+                <div class="kit">
+                    <h3>Kit 3 - Paradise</h3>
+                    <ul>
+                        <li>2 Paraguas</li>
+                        <li>Botella térmica</li>
+                        <li>Felpudo cassette</li>
+                        <li>Vaso térmico</li>
+                        <li class="price">99.99€</li>
+                    </ul>
+                    <div class="button">
+                        <a href="#"><span>Seleccionar</span></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--TESTIMONIOS-->
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <div class="container">
+                <div class="testimonial">
+                    <img class="profile" src="https://avatar.iran.liara.run/public/66" alt="img_foto" title="foto"
+                        height="200px">
+                    <blockquote class="opinion">I love the glasses because they’re lightweight and fit perfectly. There are so many choices of lens cooor and frame styles.</blockquote>
+                    <p class="name">Paola Argento</p>
+                </div>
+                <div class="testimonial off">
+                    <img class="profile" src="https://avatar.iran.liara.run/public/55" alt="img_foto" title="foto"
+                        height="200px">
+                    <blockquote class="opinion">After notifying the team of receiving a defective pair they immediately sent me a new pair. Great product and even a more excellent service!
+                    </blockquote>
+                    <p class="name">María Elena Fuseneco</p>
+                </div>
+
+            </div>
+            <div class="more">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+
+        <!--CONTACTANOS-->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <div class="container-form">
+                <p>¿Tienes preguntas o comentarios? ¡Contáctanos ahora!</p>
+                <form>
+                    <div class="data">
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Nombre</label>
+                        </div>
+    
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Email</label>
+                        </div>
+                    </div>
+
+                    <div class="group-2">
+                        <span>Escribe tu mensaje</span>
+                        <textarea class="textarea" rows="10" cols="30"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <a href="#"><span>Enviar mensaje</span></a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+   <footer>
+    <div class="footer">
+        <span>© 2024 SaaS Company |</span>
+        <div class="links">
+            <a href="#"> Terms & Conditions | </a> 
+            <a href="#"> Privacy Policy </a>
+        </div>
+    </div>
+   </footer> 
+</body>
+
+</html>
